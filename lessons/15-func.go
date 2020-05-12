@@ -13,6 +13,6 @@ func awerage(xs []float64) float64 {
 }
 
 func main() {
-	xs := []float64{98, 93, 77, 82, 83}
-	fmt.Println(awerage(xs))
+	firstVar := []float64{98, 93, 77, 82, 83}
+	fmt.Println(awerage(firstVar))
 }
