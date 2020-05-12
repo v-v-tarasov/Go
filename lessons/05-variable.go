@@ -5,7 +5,7 @@ package main
 import "fmt"
 
 var (
-	firstVar = 3
+	firstVar  = 3
 	secondVar = 6
 )
 
@@ -25,4 +25,3 @@ func main() {
 	fmt.Println(x == y)
 	fmt.Println(x != y)
 }
-

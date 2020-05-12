@@ -5,12 +5,11 @@ package main
 import "fmt"
 
 func main() {
-	for i := 1; i<= 10; i++ {
-		if i % 2 == 0 {
+	for i := 1; i <= 10; i++ {
+		if i%2 == 0 {
 			fmt.Println(i, "четное")
 		} else {
 			fmt.Println(i, "нечетное")
 		}
 	}
 }
-

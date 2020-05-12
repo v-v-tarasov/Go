@@ -12,4 +12,3 @@ func main() {
 	output := input * 2
 	fmt.Println(output)
 }
-

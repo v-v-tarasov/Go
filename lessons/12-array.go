@@ -6,7 +6,7 @@ package main
 import "fmt"
 
 func main() {
-	var x [5] float32
+	var x [5]float32
 	x[0] = 85
 	x[1] = 90
 	x[2] = 92
@@ -18,7 +18,7 @@ func main() {
 		fmt.Println(x[i])
 		total += x[i]
 	}
-	fmt.Println("Итого:", total / float32(len(x)))
+	fmt.Println("Итого:", total/float32(len(x)))
 
 	y := [5]float32{
 		50,
@@ -32,6 +32,5 @@ func main() {
 		fmt.Println(value)
 		total += value
 	}
-	fmt.Println("Итого:", total / float32(len(y)))
+	fmt.Println("Итого:", total/float32(len(y)))
 }
-
